@@ -7,4 +7,3 @@ class PageInterfaceTest(TestCase):
     def test_request_count(self):
         response = self.client.get("/session/")
         self.assertContains(response, text="Session request count", status_code=200)
-
