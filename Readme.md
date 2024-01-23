@@ -3,12 +3,6 @@ It shows count of one session browsing.
 
 ## Install app 
 
-### install django
-```
-sudo apt install python3-django
-pip install django
-```
-
 ### Migrate db migrations
 I use django-default sqllite.
 ```
